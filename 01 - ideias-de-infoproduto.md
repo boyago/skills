@@ -153,9 +153,7 @@ conceber agora. O texto de encerramento é o output final do chat.
 
 ---
 
-## O que esta skill NÃO faz
-
-Para evitar invenção de fluxos extras:
+## O que esta skill não faz
 
 - Não conduz concepção do produto (Promessa, Identidade do Consumidor,
   promessa de valor, oferta).
@@ -167,6 +165,9 @@ Para evitar invenção de fluxos extras:
 - Não oferece prosseguir para outra fase no mesmo chat depois que o usuário
   fizer a escolha.
 
-Depois que o usuário fizer a escolha, ele segue o vídeo da série para os
-próximos passos. Quem quiser conceber a ideia escolhida usa OUTRA skill, em
-outro chat.
+Depois que o usuário escolher uma ideia, oriente-o a seguir os
+próximos passos apresentados no vídeo da série.
+
+A criação e o desenvolvimento da ideia escolhida deverão
+ser realizados em outra conversa, utilizando uma skill específica para essa etapa.
+
