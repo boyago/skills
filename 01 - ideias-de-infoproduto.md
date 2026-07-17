@@ -1,8 +1,8 @@
 ---
-name: Ideias de Infoproduto WizMarket
+name: Ideias de Infoproduto
 description: >-
   Pesquisa o mercado de um nicho e entrega 50 ideias diversas de infoproduto em
-  15 formatos diferentes (curso, ebook, mentoria, agente GPT, mini-SaaS,
+  15 formatos diferentes (curso, ebook, mentoria, agentes GPT, mini-SaaS,
   planilha, checklist, desafio e outros), apresentadas em tabela agrupada por
   formato. Em seguida, quando o usuário escolhe uma das ideias, encerra
   orientando que siga os próximos passos mostrados no vídeo da série do
@@ -11,7 +11,7 @@ description: >-
   especialidade, ou pedir uma lista de possíveis infoprodutos para um nicho.
 ---
 
-# Ideias de Infoproduto WizMarket
+# Ideias de Infoproduto
 
 Skill autossuficiente. A partir da especialidade do usuário, faz a pesquisa de
 mercado do nicho e entrega 50 ideias diversas de infoproduto em 15 formatos,
@@ -20,13 +20,9 @@ das ideias, encerra orientando que ele siga os próximos passos mostrados no
 vídeo da série. Nada além disso. Sem concepção, sem geração de arquivo.
 
 > **Idioma:** responda sempre em português do Brasil, com acentuação correta.
-> **Travessão proibido** em qualquer texto gerado. Use vírgula, ponto ou dois
+> **Travessão é proibido** em qualquer texto gerado. Use vírgula, ponto ou dois
 > pontos.
 >
-> **Para a metodologia detalhada da pesquisa, consulte o arquivo de referência
-> `references/metodologia-wizmarket.md`.** Esta skill usa apenas as Seções 1 e
-> 2 (princípios e Copy Enxuta), Seção 4 (Pesquisa de Mercado) e Seção 6 (auto-
-> revisão). Carregue esse arquivo antes de pesquisar.
 
 ---
 
@@ -40,14 +36,18 @@ Comece direto pela pergunta única, sem rodeio nem menu de opções.
 Use exatamente este texto:
 
 ```
-Vou pesquisar o mercado do seu nicho e te entregar 50 ideias de infoproduto
-em 15 formatos diferentes.
+Vou iniciar uma pesquisa de mercado com seu no seu segmento e posteriormente vou te entregar 50 ideias de infoproduto
+em até 15 formatos diferentes.
 
-Qual é a sua especialidade? O que você ensina ou entrega para as pessoas?
-(ex: "Venda de Bolos Caseiros", "Emagrecimento feminino", "Marketing digital para pequenos negócios")
+Para iniciarmos responda:
+Qual é a sua especialidade? O que você ensina, entrega para as pessoas ou gosta de fazer e poderia transformar em algo ensinável?
+
+(ex: "Gosto de fazer Bolos Caseiros", "Aumento de Massa Muscular", "Organização das Finanças Pessoais", "Criando Fofuras com a Técnica Amigurumi", "Fotografia com iPhone", "Fazendo Marmitas Saudáveis para o Mês", "Tocando Mais de 50 Músicas no Violão com 3 Acordes", "Adestramento Canino para Fazer as Necessidades no Lugar Certo")
+
+
 ```
 
-Aguarde a resposta. Não faça nenhuma outra pergunta antes dela.
+Aguarde a resposta!
 
 ### Passo 1. Pesquisa de mercado
 
@@ -73,26 +73,30 @@ dores que o público sofre, dúvidas que ele pesquisa, desejos que quer realizar
 assuntos adjacentes que consome. Evite ideias genéricas, busque ângulos
 específicos e concretos do nicho pesquisado.
 
+
+Garanta pelo menos 3 ideias em cada categoria. As 5 categorias de tecnologia
+(Agente GPT, Mini-SaaS, Planilha, Checklist, Desafio) nunca podem ficar de
+fora, mesmo em nicho pouco tecnológico. As 11 ideias restantes vão para as
+categorias com maior aderência ao nicho pesquisado.
+
 **Distribuição obrigatória por formato (15 categorias, mínimo 3 ideias cada):**
 1. Mentoria em grupo
-2. Mentoria individual
+2. Mentoria individual (inclui consultoria um a um)
 3. Curso gravado
-4. Curso ao vivo (turma fechada)
+4. Curso ao vivo em turma fechada (inclui workshop, evento curto e intensivo)
 5. Ebook
 6. Template ou kit pronto
 7. Consultoria
 8. Comunidade paga (assinatura)
 9. Workshop (evento curto e intensivo)
-10. Serviço (feito para o cliente)
+10. Bootcamp (imersão intensiva de vários dias seguidos)
 11. Agente GPT (assistente personalizado para uma dor do nicho)
 12. Mini-SaaS ou ferramenta web (microaplicativo de página única)
 13. Planilha pronta (cálculo, automação ou diagnóstico)
 14. Checklist (lista validada passo a passo, baixo ticket)
 15. Desafio (jornada de 3, 7, 21 ou 30 dias com entrega diária)
 
-Garanta pelo menos 3 ideias em cada categoria. As 5 categorias finais (Agente
-GPT, Mini-SaaS, Planilha, Checklist, Desafio) nunca podem ficar de fora, mesmo
-em nicho pouco tecnológico. As 5 ideias restantes vão para as categorias com
+Garanta ao menos 3 ideias em cada categoria. As 5 principais idéias devem ir para as categorias com
 maior aderência ao nicho pesquisado.
 
 Apresente a lista agrupada por formato, com subtítulo por categoria e tabela:
@@ -100,14 +104,15 @@ Apresente a lista agrupada por formato, com subtítulo por categoria e tabela:
 ```
 ### Mentoria em grupo
 
-| # | Nome | Público-alvo resumido | Faixa de preço |
-|---|------|----------------------|----------------|
+| # | Nome | Público-alvo  | Faixa de preço |
+|---|------|---------------|----------------|
 | 1 | ... | ... | R$ ... |
 ```
 
 Numeração contínua de 1 a 50, sem reiniciar a cada categoria. Use Copy Enxuta
-nas descrições (escrita direta, sem exageros, sem ponto de exclamação, sem
-travessão, sem "mesmo que" nem "sem precisar").
+nas descrições, e atente-se às seguintes retrições:
+escrita direta e sem exageros, não utilizar ponto de exclamação, não utilizar
+travessões, não utilizar "mesmo que", não utilizar "sem precisar").
 
 ### Passo 3. Convite à escolha
 
@@ -115,23 +120,22 @@ Depois da tabela, em uma única linha, convide o usuário a escolher uma das 50
 ideias. Use exatamente este texto:
 
 ```
-Me diga o número (de 1 a 50) da ideia que mais te interessou. Se preferir
-parar por aqui, é só dizer "encerrar".
+Agora, informe o número, de 1 a 50, da ideia que mais chamou sua atenção.
+Para finalizar sem escolher, digite "encerrar".
 ```
 
 Aguarde a resposta.
 
-Aceite tanto número puro (ex: "12") quanto nome aproximado da ideia (ex:
-"Acne sem Roacutan"). Se a resposta for ambígua, trouxer mais de uma ideia,
-ou pedir uma ideia que não aparece na tabela, peça que confirme um único
-número entre 1 e 50 antes de encerrar.
+Aceite respostas de acordo com o número digitado, ex: "23", quanto ao conceito aproximado da ideia (ex:
+"Clube do Violão Gaúcho e Regional"). Se a resposta for ambígua ou trouxer mais de uma ideia,
+ou se a ideia não contiver na lista, solicite que confirme um único número entre 1 e 50 antes de encerrar.
 
 ### Passo 4. Encerramento
 
-Quando o usuário escolher uma ideia válida (número de 1 a 50, ou nome
-aproximado que resolve para uma única ideia da tabela), responda usando
-EXATAMENTE este texto, sem nenhum acréscimo, sem prefácio, sem repetir o
-nome da ideia, sem comentário extra:
+Quando o usuário escolher uma ideia válida, seja pelo número de 1 a 50 ou por um nome que identifique claramente
+uma única opção da tabela, responda apenas com o texto abaixo.
+
+Não acrescente nenhuma introdução, comentário ou explicação. Também não repita o número nem o nome da ideia escolhida.
 
 ```
 Ok, agora siga os próximos passos que o Alexandre mostra no vídeo da série.
@@ -141,7 +145,7 @@ Se o usuário disser "encerrar", "não", "não quero", ou qualquer recusa clara,
 responda com este texto:
 
 ```
-Sem problema. Se mudar de ideia, abra um novo chat e seguimos a partir dali.
+Sem problema. Se mudar de ideia, abra um novo chat e continuamos por lá.
 ```
 
 Não gere arquivo, não gere documento, não pergunte se o usuário quer
